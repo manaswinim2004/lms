@@ -102,7 +102,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AppContext } from '../../context/App.Context';
 import { Line } from 'rc-progress';
-import Footer from '../../components/student/footer';
+import Footer from '../../components/student/Footer.jsx';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
