@@ -5,7 +5,7 @@ import CoursesSection from '../../components/student/CoursesSection.jsx'
 import TestimonialsSection from '../../components/student/TestimonialsSection.jsx'
 import CallToAction from "../../components/student/CallToAction.jsx";
 
-import Footer from '../components/student/Footer.jsx'
+import Footer from '../../components/student/Footer.jsx'
 const Home = () => {
   return (
     <div className='flex flex-col items-center space-y-7 text-center'>
