@@ -2,7 +2,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { assets } from '../../assets/assets';
-import { AppContext } from '../../context/App.Context';
+import { AppContext } from '../../context/App.Context.jsx';
 
 const CourseCard = ({ course }) => {
   const { currency , calculateRating} = useContext(AppContext);
