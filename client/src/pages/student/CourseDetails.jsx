@@ -95,12 +95,12 @@ justify-between md:px-36 px-8 md:pt-30 pt-20 text-left'>
 
 {/*review*/}
 <div className='flex items-center space-x-2 pt-3 pb-1 text-sm'>
-    <p>{calculateRating(courseData)}</p>
+    {/* <p>{calculateRating(courseData)}</p>
     <div className='flex'>
       {[...Array(5)].map((_, i)=>(<img key={i} src={i<Math.floor(calculateRating(courseData)) ? assets.star : assets.star_blank} alt='' className='w-3.5 h-3.5' />
       ))}
-    </div>
-    <p className='text-blue-600'>({courseData.courseRatings.length} {courseData.courseRatings.length>1 ? 'ratings' : 'rating'})</p>
+    </div> */}
+    {/* <p className='text-blue-600'>({courseData.courseRatings.length} {courseData.courseRatings.length>1 ? 'ratings' : 'rating'})</p> */}
     <p> { courseData.enrolledStudents.length} {courseData.enrolledStudents.length >1 ? 'students' :'student'}</p>
   </div>
 <p className= 'text-sm'> Course by <span className= 'text-blue-600 underline'>{courseData.educator.name}</span></p>
@@ -184,10 +184,10 @@ md:rounded-none overflow-hidden bg-white min-w-[300px] sm:min-w-[420px]'>
 <p className='md:text-lg text-gray-500'>{courseData.discount}% off</p>
     </div>
     <div className='flex items-center text-sm md:text-default gap-4 pt-2 md:pt-4 text-gray-500'>
-    <div className='flex items-center gap-1'>
+    {/* <div className='flex items-center gap-1'>
         <img src={assets.star} alt="star icon" />
         <p>{calculateRating(courseData)}</p>
-    </div>
+    </div> */}
 
 
     <div className='h-4 w-px bg-gray-500/40'></div>
