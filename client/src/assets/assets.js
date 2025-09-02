@@ -107,21 +107,21 @@ export const dummyTestimonial = [
         role: 'SWE 1 @ Amazon',
         image: assets.profile_img_1,
         rating: 5,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
+        feedback: 'Edemy makes learning so easy and fun! I can take courses on the go and track my progress without any hassle. It really motivates me to keep learning every day.',
     },
     {
         name: 'Richard Nelson',
         role: 'SWE 2 @ Samsung',
         image: assets.profile_img_2,
         rating: 4,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
+        feedback: 'Edemy completely transformed my career. The structured learning path and hands-on projects gave me the confidence to crack Samsung’s interviews. Today, I’m proud to say I work as a Software Engineer at Samsung!',
     },
     {
         name: 'James Washington',
         role: 'SWE 2 @ Google',
         image: assets.profile_img_3,
         rating: 4.5,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
+        feedback: 'Thanks to Edemy’s Full Stack Development course, I landed my first job as a Software Developer. The practical projects and mock interviews really prepared me for the real world.',
     },
 ];
 
