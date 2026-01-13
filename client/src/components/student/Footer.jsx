@@ -9,8 +9,18 @@ md:px-0 justify-center gap-10 md:gap-32 py-10 border-b
 border-white/30'>
 <div className='flex flex-col md:items-start items-center
 w-full'>
-<img src={assets.logo_dark} alt="logo" />
-<p className='mt-6 text-center md:text-left text-sm text-white/80' >Edemy is built with passion and ❤️ to make learning simple, engaging, and accessible for everyone. We believe in empowering learners and educators to grow together, because education made with love lasts a lifetime.</p>
+<div className="flex items-center gap-3">
+  <img
+    src={assets.logo_dark}
+    alt="logo"
+    className="h-8 w-auto"
+  />
+  <span className="text-white text-xl font-semibold leading-none">
+    Edexa
+  </span>
+</div>
+
+<p className='mt-6 text-center md:text-left text-sm text-white/80' >Edexa is built with passion and ❤️ to make learning simple, engaging, and accessible for everyone. We believe in empowering learners and educators to grow together, because education made with love lasts a lifetime.</p>
 </div>
 <div className='flex flex-col md:items-start items-center w-full'>
   <h2 className='font-semibold text-white mb-5'>Company</h2>
@@ -37,7 +47,7 @@ button>
   </div>
 
 </div>
-      <p className='py-4 text-center text-xs md:text-sm text-white/60'>Copyright 2025 © Manaswini. All Right Reserved</p>
+      <p className='py-4 text-center text-xs md:text-sm text-white/60'>Copyright 2026 © Manaswini. All Right Reserved</p>
     </footer>
   )
 }
