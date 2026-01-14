@@ -1,6 +1,6 @@
-Edemy
+Edexa
 
-📚 Edemy – MERN Stack Learning Management System
+📚 Edexa – MERN Stack Learning Management System
 
 A modern Learning Management System built with MongoDB, Express, React, and Node.js (MERN), featuring Clerk authentication and Stripe payment integration for courses.
 
